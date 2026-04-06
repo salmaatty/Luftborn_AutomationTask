@@ -1,0 +1,23 @@
+{
+  "name": "ebay-pom-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation tests with Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "pom"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
